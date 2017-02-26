@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+.btn-playload {
+  background-color: #ab0808;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-playload:hover {
+  background-color: #840505;
+}
+
+.notice, .alert {
+  position: absolute;
+  width: 50%;
+  background-color: #fff;
+  padding: 30px;
+  margin-left: 25%;
+  margin-top: 50px;
+  z-index: 1000;
+  border: 1px solid #999;
+  text-align: center;
+  box-shadow: 3px 3px #999;
+}
